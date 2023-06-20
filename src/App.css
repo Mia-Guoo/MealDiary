@@ -1,0 +1,337 @@
+.bigBox {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    height: 80%;
+}
+
+.headerBox {
+    background-color: rgb(253, 250, 218);
+    font-size: larger;
+    position: absolute;
+    top: 0%;
+    width: 80%;
+    height: 10%;
+}
+
+.footerBox {
+    background-color: rgb(253, 250, 218);
+    font-size: larger;
+    position: fixed;
+    bottom: 0%;
+    width: 80%;
+    height: 5%;
+}
+
+.mainContentBox {
+    background-color: rgb(211, 225, 226);
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    margin-bottom: 100%;
+    padding-bottom: 2%;
+}
+
+.srchContainer {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+::placeholder {
+    text-align: center;
+    color: #D3D3D3;
+}
+
+._searchbar {
+    border-bottom: solid #E5E4E2 4px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 60vh;
+    height: 5vh;
+
+
+}
+
+.recipes {
+    text-align: center;
+
+    height: 100%;
+
+}
+
+.bttnFilter {
+
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#srch-icon {
+    color: #696969;
+    margin: 3px;
+
+}
+
+.SearchBar {
+    background-color: white;
+    width: 65vh;
+    border-radius: 10px;
+    height: 3 rem;
+    padding: 0 15 px;
+    box-shadow: 0px 0px 8px #ddd;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+.cardImg {
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fc-content {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.fc-content.breakfast {
+    background-color: #e91e63;
+}
+
+.fc-content.lunch {
+    background-color: #ffc107;
+}
+
+.fc-content.dinner {
+    background-color: #9c27b0;
+}
+
+.fc-content.snack {
+    background-color: #4caf50;
+}
+
+.groveryTable {
+    background-color: rgb(211, 225, 226);
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    margin-bottom: 100%;
+    padding-bottom: 2%;
+}
+
+.groceryTitle {
+    text-align: center;
+}
+
+.Collapsible {
+    width: 75%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ColContent {
+    width: 85%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.ColContent2 {
+    width: 85%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+
+.sideBarBox {
+    width: 200px;
+    background-color: rgb(183, 204, 206);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right:20px;
+    height: 1100px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.SideBar-List {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    margin-top: 2px;
+}
+
+.SideBar-List2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    margin-top: 2px;
+}
+
+.sb {
+    width: 100%;
+    background-color: rgb(253, 250, 218);
+}
+
+.Fb {
+
+
+    width: 100%;
+}
+
+form.login input {
+    margin-left: 5px;
+}
+
+form.login label {
+    width: 75px;
+}
+
+form.register,
+form.login {
+    background-color: rgb(253, 250, 218);
+    border: 1px dotted #000;
+    border-radius: 7px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+}
+
+form.register button,
+form.login button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+button.active {
+    background-color: #007bff !important;
+    color: #fff;
+}
+
+.groceryTable{
+    background-color: rgb(211, 225, 226);
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    margin-bottom: 100%;
+    padding-bottom: 2%;
+}
+
+.sideBarBox {
+    width: 200px;
+    background-color: rgb(183, 204, 206);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right:20px;
+    height: 1100px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.SideBar-List {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    margin-top: 2px;
+}
+
+.SideBar-List2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    margin-top: 2px;
+}
+
+.sb {
+    width: 100%;
+    background-color: rgb(253, 250, 218);
+}
+
+.Fb {
+
+
+    width: 100%;
+}
+
+form.login input {
+    margin-left: 5px;
+}
+
+form.login label {
+    width: 75px;
+}
+
+form.register,
+form.login {
+    background-color: rgb(253, 250, 218);
+    border: 1px dotted #000;
+    border-radius: 7px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+}
+
+form.register button,
+form.login button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+button.active {
+    background-color: #007bff !important;
+    color: #fff;
+}
+
+.groceryTable{
+    background-color: rgb(211, 225, 226);
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    margin-bottom: 100%;
+    padding-bottom: 2%;
+}
+.calendar {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .calendar th,
+  .calendar td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .calendar-icons {
+    margin: 10px;
+  }
